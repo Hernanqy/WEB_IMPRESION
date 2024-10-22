@@ -15,16 +15,13 @@ const Hero = () => {
               initial= "hidden"
               animate="visible"
               className="text-5xl lg:text-6xl font-bold leading-relaxed xl:leading-normal">
-                El mundo 3d a tu <span className="text-sky-800">Sin dudas</span>{" "}
+                El mundo 3d a tu <span className="text-sky-800">Alcance</span>{" "}
               </motion.h1>
               <motion.p
               variants={SlideRight(1.2)}
               initial= "hidden"
-              animate="visible" className="text-gray-600 xl:max-w-[500px]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Corporis est laborum quod consectetur ab minus unde nemo,
-                officia ipsam, aliquam sunt quia provident voluptatibus placeat
-                iste ducimus! Cum, blanditiis quaerat!
+              animate="visible" className="text-gray-800 xl:max-w-[600px] font-bold">
+                Transformamos ideas en realidades tangibles a través de la impresión 3D, realidad virtual y experiencias inmersivas en el fascinante mundo tridimensional.
               </motion.p>
               {/*buton section*/}
               <motion.div 
@@ -35,7 +32,7 @@ const Hero = () => {
                 <button className="bg-cyan-500 flex items-center gap-2 !mt-4">
                     {" "}
                     Pedidos</button>
-                <button className="flex justify-center gap-2 items-center mt-4">
+                <button className="btn flex justify-center gap-2 items-center mt-4">
                     
                     <FaPlay/>
                     Ver Novedades</button>
