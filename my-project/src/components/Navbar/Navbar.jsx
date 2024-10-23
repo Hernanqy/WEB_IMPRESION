@@ -3,7 +3,7 @@ import "./Navbar.css"
 import ResponsiveMenu from './ResponsiveMenu.jsx';
 import { NavbarMenu } from "../../mockData/data.js";
 import { CiSearch } from "react-icons/ci";
-import logo1 from "./../../assets/logo2.jpeg"
+import logo1 from "./../../assets/3D.png"
 import { MdMenu } from "react-icons/md";
 import { PiShoppingCartThin } from "react-icons/pi";
 const Navbar = () => {

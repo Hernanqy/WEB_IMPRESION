@@ -1,7 +1,7 @@
 import { GrYoga } from "react-icons/gr";
 import { FaDumbbell } from "react-icons/fa6";
 import { GiGymBag } from "react-icons/gi";
-import {motion} from "framer-motion"
+import {motion} from "framer-motion";
 import { SlideLeft } from "../../utility/animation";
 const ProductosData = [
   {
