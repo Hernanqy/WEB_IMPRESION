@@ -1,4 +1,5 @@
 import pro1 from "./../../assets/BALANCE.AMOG.jpeg"
+import pro2 from "./../../assets/BALANCE.AMOG.FONDO.jpeg"
 
 const Card = () => {
   return (
@@ -20,7 +21,7 @@ const Card = () => {
       </a>
       <a href="#" className="group">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-          <img src="https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-02.jpg" alt="Olive drab green insulated bottle with flared screw lid and flat top." className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+          <img src={pro2}/>
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Nomad Tumbler</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$35</p>
