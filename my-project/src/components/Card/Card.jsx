@@ -28,14 +28,14 @@ const Card = () => {
       </a>
       <a href="#" className="group">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-          <img src="https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-03.jpg" alt="Person using a pen to cross a task off a productivity paper card." className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+          <img src={pro1} className="h-full w-full object-cover object-center group-hover:opacity-75"/>
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Focus Paper Refill</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$89</p>
       </a>
       <a href="#" className="group">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-          <img src="https://tailwindui.com/plus/img/ecommerce-images/category-page-04-image-card-04.jpg" alt="Hand holding black machined steel mechanical pencil with brass tip and top." className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+          <img src={pro2} alt="Hand holding black machined steel mechanical pencil with brass tip and top." className="h-full w-full object-cover object-center group-hover:opacity-75"/>
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Machined Mechanical Pencil</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$35</p>

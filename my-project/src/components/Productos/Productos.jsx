@@ -33,7 +33,7 @@ const Productos = () => {
       <div className="container py-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 font-playfair">
           <div className="space-y-4 p-6">
-            <h1 className="text-3xl md:text-4xl font-bold">
+            <h1 className="text-3xl md:text-4xl text-center font-bold">
               ¿Que Ofrecemos para Vos?
             </h1>
             <p className="text-gray-500">
