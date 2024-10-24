@@ -46,7 +46,7 @@ const Hero = () => {
             initial= "hidden"
             animate="visible"
             
-            src={heroimg} alt=""  className="w-[350px] md:w-[550px] xl:w-[580px] drop-shadow"/>
+            src={heroimg} alt=""  className="w-[350px] h-[350px] md:w-[550px] md:h-[550px] xl:w-[580px] xl:h-[580px] drop-shadow"/>
           </div>
         </div>
       </section>
