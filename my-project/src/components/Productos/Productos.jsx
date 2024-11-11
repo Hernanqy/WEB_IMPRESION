@@ -1,28 +1,31 @@
-import { GrYoga } from "react-icons/gr";
-import { FaDumbbell } from "react-icons/fa6";
-import { GiGymBag } from "react-icons/gi";
+
+
+import { AiTwotoneTrophy } from "react-icons/ai";
 import {motion} from "framer-motion";
 import { SlideLeft } from "../../utility/animation";
+import { HiGiftTop } from "react-icons/hi2";
+import { AiOutlineRuby } from "react-icons/ai";
 const ProductosData = [
   {
     id: 1,
-    title: "LLaveros",
-    desc: "Tenemos diseños y hacemos el tuyo personalizado",
-    icon: <GrYoga />,
+    title: "Regalos origiales",
+    desc: "Sorprende con creatividad, sorprende con Realiza-3D",
+    icon: <HiGiftTop />,
     delay: 0.3,
   },
   {
     id: 2,
-    title: "Juegos",
-    desc: "Tenemos diseños y hacemos el tuyo personalizado",
-    icon: <FaDumbbell />,
+    title: "Objetos de diseño",
+    desc: "Donde la funcionalidad se encuentra con el arte",
+    icon: <AiOutlineRuby />,
     delay: 0.3,
   },
   {
     id: 3,
-    title: "Regalos originales",
-    desc: "Tenemos diseños y hacemos el tuyo personalizado",
-    icon: <GiGymBag />,
+    title: "Promocion para empresas",
+    desc: "Soluciones publicitarias en 3D para destacar tu empresa",
+    icon: <AiTwotoneTrophy />
+    ,
     delay: 0.3,
   },
 ];
@@ -37,8 +40,7 @@ const Productos = () => {
               ¿Que Ofrecemos para Vos?
             </h1>
             <p className="text-gray-500">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. At,
-              sunt, totam id delectus praesentium sit.
+            En Realiza-3D impulsamos ideas a través de la impresión 3D, ofreciendo soluciones innovadoras que se adaptan tanto a empresas que buscan destacar su marca, optimizar procesos o explorar prototipos y productos personalizados, como a quienes desean materializar objetos más sencillos o proyectos personales. Con atención a cada detalle y dedicación en cada proyecto, brindamos un servicio de calidad que apoya desde campañas de promoción hasta piezas técnicas. En Realiza-3D, creemos en la tecnología al servicio de la creatividad y la calidad para todos.
             </p>
           </div>
           {ProductosData.map((item) => {

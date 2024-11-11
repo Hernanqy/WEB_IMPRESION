@@ -2,30 +2,27 @@ import React  from 'react';
 import "./Navbar.css"
 import ResponsiveMenu from './ResponsiveMenu.jsx';
 import { NavbarMenu } from "../../mockData/data.js";
-import { CiSearch } from "react-icons/ci";
-import logo1 from "./../../assets/3D.png"
+
+
 import { MdMenu } from "react-icons/md";
-import { PiShoppingCartThin } from "react-icons/pi";
+
 const Navbar = () => {
     const [open,setOpen]= React.useState(false);
   return (
     <>
       <nav>
-        <div className="container flex justify-between items-center py-8">
+        <div className="container flex justify-center items-center py-8">
           {/* Logo section */}
-          <div className="text-2xl flex items-center gap-2 font-bold uppercase">
-            <img className='logo1' src={logo1} alt="" />
-            
-          </div>
+        
           {/* Menu section */}
           <div className="hidden md:block">
-            <ul className="flex items-centergap-6 text-gray-600">
+            <ul className="flex items-centergap-6 text-slate-100 gap-5">
               {NavbarMenu.map((item) => {
                 return (
-                  <li key={item.id}>
+                  <li key={item.id} className=' border-gray-950 bg-pink-700 rounded-full '>
                     <a
                       href={item.link}
-                      className="inline-block py-1 px-3 hover:text-primary font-semibold"
+                      className="inline-block py-1 px-3 text-slate-100 hover:text-pink-600 font-semibold "
                     >
                       {item.title}
                     </a>
@@ -34,18 +31,7 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          {/* Icons section */}
-          <div className="flex items-center gap-4">
-            <button className="btn text-2xl hover:bg-indigo-400 hover:text-sky-700  p-2 duration-200">
-              <CiSearch className="" />
-            </button>
-            <button className="text-2xl hover:bg-indigo-400 hover:text-white  p-2 duration-200">
-              <PiShoppingCartThin className="" />
-            </button>
-            <button className="hover:bg-primary text-primary font-semibold hover:text-white rounded-md border-primary px-6 py-2 duration-200 hidden md:block">
-Login
-            </button>
-          </div>
+         
           {/* Mobile hamburger Menu section */}
           <div className="md:hidden" onClick={() => setOpen(!open)}>
             <MdMenu className="text-4xl"/>

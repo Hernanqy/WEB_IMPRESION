@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
-import Bgimg from "./assets/lowpoly.png"
+import Bgimg from "./assets/fondo1.jpeg"
 import Productos from "./components/Productos/Productos";
 
 const bgStyle= {

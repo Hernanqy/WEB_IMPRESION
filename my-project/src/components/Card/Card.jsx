@@ -1,5 +1,7 @@
-import pro1 from "./../../assets/BALANCE.AMOG.jpeg"
-import pro2 from "./../../assets/BALANCE.AMOG.FONDO.jpeg"
+import pro2 from "./../../assets/BALANCE.AMOG.jpeg"
+import pro1 from "./../../assetS/MACETA_01_EDIT.png"
+import pro3 from "./../../assetS/CRANEO_01.jpeg"
+import pro4 from "./../../assetS/ET_01.jpeg"
 
 const Card = () => {
   return (
@@ -28,14 +30,14 @@ const Card = () => {
       </a>
       <a href="#" className="group">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-          <img src={pro1} className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+          <img src={pro3} className="h-full w-full object-cover object-center group-hover:opacity-75"/>
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Focus Paper Refill</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$89</p>
       </a>
       <a href="#" className="group">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-          <img src={pro2} alt="Hand holding black machined steel mechanical pencil with brass tip and top." className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+          <img src={pro4} alt="Hand holding black machined steel mechanical pencil with brass tip and top." className="h-full w-full object-cover object-center group-hover:opacity-75"/>
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Machined Mechanical Pencil</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$35</p>
