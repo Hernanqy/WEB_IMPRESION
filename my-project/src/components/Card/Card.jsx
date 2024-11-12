@@ -1,12 +1,12 @@
 import pro2 from "./../../assets/BALANCE.AMOG.jpeg"
-import pro1 from "./../../assetS/MACETA_01_EDIT.png"
-import pro3 from "./../../assetS/CRANEO_01.jpeg"
-import pro4 from "./../../assetS/ET_01.jpeg"
+import pro1 from "./../../assets/MACETA_01_EDIT.png"
+import pro3 from "./../../assets/CRANEO_01.jpeg"
+import pro4 from "./../../assets/ET_01.jpeg"
+
 
 const Card = () => {
   return (
-    <div>
-       
+    <div> 
 
 
        <div className="bg-white">
